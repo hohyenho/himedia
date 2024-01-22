@@ -1,10 +1,12 @@
 #port {
 	width: 100%;
 	margin-top: 30vh;
+	overflow: hidden;
 }
 
 .port__inner {
 	padding: 16px;
+
 
 	.port__title {
 		width: 100%;
@@ -29,7 +31,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		width: 3500px;
-
 
 		.port__item {
 			width: 500px;
@@ -83,7 +84,7 @@
 					margin-top: 0;
 
 					img {
-						filter:grayscale(0%);
+						filter: grayscale(0%);
 					}
 				}
 			}
@@ -110,7 +111,7 @@
 				padding: 0.65rem 1.5rem;
 				margin-top: 20px;
 
-				&:hover{
+				&:hover {
 					background-color: var(--black100);
 					color: var((--white));
 				}

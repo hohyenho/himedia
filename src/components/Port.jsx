@@ -110,6 +110,7 @@ const Port = () => {
 
 
 	return (
+
 		<section id="port" ref={horizontalRef}>
 			<div className="port__inner">
 				<div className="port__title">
@@ -119,7 +120,7 @@ const Port = () => {
 
 					{portText.map((port, key) => (
 						<article className={`port__item p${key + 1}`} key={key}
-							ref={(el)=>(sectionsRef.current[key] = el)}
+							ref={(el) => (sectionsRef.current[key] = el)}
 						>
 							<span className="num">{port.num}</span>
 							<a href={port.site} target="_blank" className="img">
